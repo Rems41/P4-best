@@ -29,6 +29,27 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.citation-text{
+    font-size: 1.3em;
+    font-style: italic;
+    color: #575757;
+}
+
+.citation-author{
+    font-size: 1em;
+    font-style: normal;
+    color: #575757;
+}
+
+.contrast{
+    color: #333;
+}
+
+.h2-style{
+    font-size: 1em;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -260,6 +281,7 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 36px;
     color: #FFFFFF;
+    font-weight: bolder;
 }
 
 .navbar {
