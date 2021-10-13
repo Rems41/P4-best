@@ -103,6 +103,10 @@ a:hover {
     background: top no-repeat;
 }
 
+.texture-paper::before{
+    background: url(img/texture-paper.png);
+}
+
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
