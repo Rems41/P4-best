@@ -100,12 +100,6 @@ a:hover {
 .bg-t-edge {
     background: top no-repeat;
 }
-
-.texture-paper::before {
-    background: url(img/texture-paper.png);
-    background-size: 280px 280px;
-}
-
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
