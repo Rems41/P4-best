@@ -98,15 +98,15 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent."data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label id="form_name">
 							Nom
-							<input id="name" class="form-control" title="Entrez votre nom" required />
+							<input id="name" class="form-control" title="Entrez votre nom" required aria-label="champs formulaire pour avoir le nom du contact" aria-labelledby="form_name" aria-required="true" />
 						</label>
 					</div>
 					<div class="form-group">
-						<label>
+						<label id="form_mail">
 							Adresse email
-							<input id="email" class="form-control" type="email" title="Entrez votre email" required />
+							<input id="email" class="form-control" type="email" title="Entrez votre email" required aria-labelledby="form_mail" />
 						</label>	
 					</div>
 					<div class="form-group">
@@ -152,22 +152,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="contact.html" title="Twitter"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com/?lang=fr" title="Twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="contact.html" title="Facebook"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://fr-fr.facebook.com" title="Facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="contact.html" title="Dribble"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="https://dribbble.com" title="Dribble"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="contact.html" title="Instagram"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com" title="Instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
