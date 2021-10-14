@@ -297,6 +297,7 @@ a:hover {
     font-size: 36px;
     color: #FFFFFF;
     font-weight: bolder;
+    text-shadow: 2px 0 0 #d60, 2px 2px 0 #d60, 0 2px 0 #d60, -2px 2px 0 #d60, -2px 0 0 #d60, -2px -2px 0 #d60, 0 -2px 0 #d60, 2px -2px 0 #d60;
 }
 
 .navbar {
@@ -720,7 +721,7 @@ h2 {
     line-height: 1.4em;
     font-size: 1.6rem;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .med-width-whitespace {
@@ -775,6 +776,10 @@ h2 {
 
 .tc-white {
     color:#FFFFFF ;
+}
+
+.contour{
+    text-shadow: 2px 0 0 #d60, 2px 2px 0 #d60, 0 2px 0 #d60, -2px 2px 0 #d60, -2px 0 0 #d60, -2px -2px 0 #d60, 0 -2px 0 #d60, 2px -2px 0 #d60;
 }
 
 .btn-atomic-tangerine {
