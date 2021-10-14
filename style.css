@@ -1042,6 +1042,10 @@ h2 {
         padding-left: 0;
         padding-right: 0;
     }
+    .contour {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1049,3 +1053,4 @@ h2 {
         text-align: center;
     }
 }
+
