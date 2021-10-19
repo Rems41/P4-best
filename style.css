@@ -1041,9 +1041,6 @@ h2 {
         width: 180px;
         height: 320px;
     }
-    .img-responsive {
-        max-width: 50%;
-    }
 }
 
 @media (max-width: 400px) {
